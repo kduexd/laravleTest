@@ -17,7 +17,7 @@ class Member extends Migration
         Schema::create('member', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('Account',50);
-            $table->string('password',50);
+            $table->string('Password',50);
         });
     }
 
